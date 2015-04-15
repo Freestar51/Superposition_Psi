@@ -9,7 +9,7 @@ function [ p ] = psi_func( d, n, gamma, k )
         error('error: gamma >= 2n+2');
     end
     
-    i = arrayfun(@str2num, dec2base(floor(d*gamma^k), gamma));
+    i = arrayfun(@str2num, dec2base(floor(d*gamma^k), gamma, k));
     
     i1 = i >= (gamma - 1);
     i2 = i >= (gamma - 2);
