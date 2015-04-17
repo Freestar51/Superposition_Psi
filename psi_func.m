@@ -1,6 +1,15 @@
 function [ p ] = psi_func( d, n, gamma, k )
 % Psi function of Kolmogorov's Superposition theorem
 %
+% Input parameters:
+%               d:      input data value
+%               n:      the dimension of input x
+%               gamma:  the number of hidden unit
+%               k:      precision number
+%
+% Written by Giyoung Jeon
+% Probabilistic Artificial Intelligence Lab at UNIST
+% v1.1 April, 15th, 2015
 
     if k <= 0
         error('error: k > 0');

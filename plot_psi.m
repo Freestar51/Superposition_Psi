@@ -1,4 +1,14 @@
 % Plot result of psi function in [0,1]
+%
+% Variable parameters:
+%               D:      input dataset
+%               n:      input data dimension
+%               gamma:  the number of hidden unit
+%               k:      precision number
+%
+% Written by Giyoung Jeon
+% Probabilistic Artificial Intelligence Lab at UNIST
+% v1.1 April, 16th, 2015
 
 D = [0:0.00001:1];
 D = D(1:end-1);
